@@ -9,3 +9,5 @@ def Sum():
 		i += 1
 
 print Sum()
+
+#how about doing it recursively
