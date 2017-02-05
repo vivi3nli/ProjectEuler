@@ -11,3 +11,7 @@ def Sum():
 print Sum()
 
 #how about doing it recursively
+def Sum_re(i):
+	if i == 0 or 1:
+		return 1
+	return(Sum_re(i - 1) + Sum_re(i - 2))
