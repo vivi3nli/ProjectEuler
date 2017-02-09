@@ -40,7 +40,7 @@ def add_even(below):
         i += 1
     return result
 
-#print(add_even(4000000))
+print(add_even(4000000))
 
 #A really simple and quick one posted on https://projecteuler.net/thread=2
 '''
@@ -61,3 +61,4 @@ def calcE():
 		x, y = x + 2 * y, 2 * x + 3 * y
 	return sum
 print(calcE())
+
